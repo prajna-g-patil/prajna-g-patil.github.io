@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: larger;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #232323;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar .profile-pic img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about-me, .contact-info, .language, .expertise {
+    margin-bottom: 20px;
+}
+
+.about-me h2, .language h3, .expertise h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.about-me p, .contact-info p {
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.language ul, .expertise ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.language li, .expertise li {
+    margin-bottom: 5px;
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+
+.main-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    color: #0b57d0;
+}
+
+.main-content .role {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.education, .certifications, .hobbies {
+    margin-bottom: 30px;
+}
+
+.education h2, .certifications h2, .hobbies h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #0b57d0;
+}
+
+.education p, .certifications p, .hobbies ul {
+    font-size: 1em;
+}
+
+.hobbies ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.hobbies li {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
